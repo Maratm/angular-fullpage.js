@@ -48,6 +48,10 @@
           if (options && options.navigation) {
             $('#fp-nav').find('a').removeAttr('href');
           }
+          
+          if (options && options.slidesNavigation) {
+            $('.fp-slidesNav').find('a').removeAttr('href');
+          }
 
           if (pageIndex) {
             $timeout(function() {
